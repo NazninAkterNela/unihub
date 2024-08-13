@@ -1,0 +1,35 @@
+.container {
+  position: relative;
+  top: -80px;
+}
+
+table {
+  border-collapse: collapse;
+  width: 100%;
+  font-size: 1.2rem;
+}
+
+th, td {
+  padding: 0.5rem;
+  text-align: left;
+  border: 1px solid #310707;
+}
+
+th {
+  background-color: #8b0000;
+  color: #083a60;
+  border-top: 2px solid #310707;
+  border-bottom: 2px solid #310707;
+}
+
+tbody {
+  border: 1px solid #730202;
+}
+
+tr:nth-child(even) {
+  background-color: #630f0f;
+}
+
+td {
+  color: #3c0606;
+}

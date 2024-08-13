@@ -1,0 +1,94 @@
+.container {
+  position: relative;
+  top: -100px;
+}
+
+#coursesTable {
+  border-collapse: collapse;
+  width: 100%;
+  font-size: 1rem;
+}
+
+#coursesTable th,
+td {
+  padding: 0.5rem;
+  text-align: left;
+  border: 1px solid #150000;
+}
+
+#coursesTable th {
+  background-color: #000000;
+  color: #d8dee2;
+  border-top: 3px solid #08e287;
+  border-bottom: 3px solid #08e287;
+  border-left: 3px solid #08e287;
+  border-right: 3px solid #08e287;
+}
+
+#coursesTable tbody {
+  border: 3px solid #08e287;
+}
+
+#coursesTable tr:nth-child(even) {
+  background-color: #fffdfd;
+}
+
+#coursesTable td {
+  color: #3c0606;
+}
+
+.pagination {
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
+}
+
+.pagination a {
+  color: black;
+  float: left;
+  padding: 8px 16px;
+  text-decoration: none;
+  border: 1px solid #ddd;
+}
+
+.pagination a.active {
+  background-color: #08e287;
+  color: rgb(32, 21, 21);
+  border: 1px solid #000402;
+}
+
+.pagination a.active span {
+  background-color: #000000;
+  color: #d8dee2;
+  padding: 5px;
+  border-radius: 3px;
+}
+
+.container {
+  max-width: 960px;
+  margin: 0 auto;
+  padding: 2rem 1rem;
+}
+
+.search-container {
+  display: flex;
+  justify-content: flex-end;
+  margin-bottom: 1rem;
+}
+
+.search-container input[type="text"] {
+  padding: 0.5rem 1rem;
+  border-radius: 0.25rem;
+  font-size: 1rem;
+  margin-right: 0.5rem;
+  border: none;
+}
+
+.search-container button {
+  background-color: #08e287;
+  color: #fff;
+  border: none;
+  padding: 0.5rem 1rem;
+  border-radius: 0.25rem;
+  font-size: 1rem;
+}

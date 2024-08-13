@@ -1,0 +1,138 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+
+*{
+    font-family: "Montserrat",sans-serif; 
+}
+body{
+    background-color: #f1f2fa;   
+}
+.navbarr{
+    border-bottom: 5px solid #0099a9;
+    margin-bottom: 20px;
+}
+.container-profile{
+    display: flex;
+    justify-content: space-between;
+}
+.about{
+    position: relative;
+    right: 400px;
+    width: 400px;
+}
+
+.profile, 
+.details,
+.container-running{
+    margin: 50px;
+    margin-left: 400px;
+    background: #fff;
+    width: 600px;
+    padding: 20px;
+    border-radius: 10px;
+    margin-bottom: 0;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    
+}
+.main{
+    position: relative;
+    right: 100px;
+    width: 800px;
+    display: flex;
+    justify-content: center;
+}
+
+footer{
+    margin-top: 100px;
+}
+.container-running .div1,
+.details .div1,
+.about .div1{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+input{
+    width: 100%;
+    font-size: 14px;
+    border: none;
+}
+textarea:focus,
+input:focus,
+select:focus{
+    outline: none;
+}
+.container-running .div1 button{
+    text-align: center;
+}
+.profile .container-photo{
+    width: 40%;
+    margin-left: 10px;
+    padding: 5px;
+    display: flex;
+    justify-content: space-between;
+    gap: 280px;
+}
+.profile .container-details{
+    display: block;
+    margin: 0px 0 30px 10px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.about{
+    display: inline-block;
+    position: relative;
+    right: 400px;
+    width: 400px;
+    height: fit-content;
+}
+
+.profile .container-details .dropdown button{
+    width: 140px;
+    font-size: 14px;
+    font-weight: 600;
+}
+
+
+
+h1{
+    font-size: 22px;
+}
+h2{
+    width: 100%;
+    font-size: 14px;
+}
+
+.container-photo .img-dp{
+    max-height:100%; 
+    max-width:100%;
+    border-radius: 50%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 100%;
+    
+}
+section .edit{
+    margin-top: 20px;
+}
+section .edit div{
+    display: flex;
+    justify-content: space-between;
+}
+.main h2{
+    
+    font-weight: 600;
+    font-size: 16px;
+    margin: 0;
+    padding: 0;
+}
+.main input{
+    font-size: 16px;
+    font-weight: 600;
+    margin: 0;
+    padding: 0;
+}
+.main form{
+    width: 400px;
+}

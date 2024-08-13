@@ -1,0 +1,212 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@200;300;400;600;700;900&display=swap');
+
+*{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Source Sans Pro', sans-serif;
+}
+body{
+    width: 100%;
+    height: 100vh;
+    margin: auto;
+    background: #f1f2fa;
+    
+
+}
+.first-h1{
+    
+    display: block;
+    font-size: 1.6em;
+    margin-top: 0.67em;
+    margin-left: 0;
+    margin-right: 0;
+    font-weight: bold;
+    position: relative;
+    left: 20px;
+    color: #2ab7ca ;
+      
+}
+.containerr form div{
+    display: flex;
+    flex-direction: row;
+}
+.btnn{
+    font-family: 'Source Sans Pro', sans-serif;
+    font-size: 18px;
+    font-weight: 600;
+    position: relative;
+    top: -100%;
+    right: -200px;
+    width: 30px;
+    background: transparent;
+    border: none;
+    cursor: pointer;
+    color: #1d1d1d;
+
+}
+.btnn:hover{
+    background-color: #fff;
+}
+.categories{
+    position: absolute;
+    left: 40%;
+}
+/* search option*/
+.containerr{
+    position: relative;
+
+    left: 15%;
+    top: -09%;
+    width: 80%;
+    height:80%;
+    background:  #ffffff;
+
+    border-radius: 15px;
+    box-shadow: 4px 4px 30px rgba(45, 199, 153, 0.06);
+    padding: 30px;
+
+    overflow-y: scroll;
+
+}
+.containerr::-webkit-scrollbar{
+    display: none;
+}
+.containerr form{
+    position: relative;
+    top: 10%;
+    width: 100%;
+    border-radius: 4px;
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 50px;
+
+}
+.containerr form input{
+    border: none;
+    outline: none;
+    box-shadow: none;
+    width: 100%;
+    font-size: 16px;
+    font-weight: 600;
+    padding: 8px 10px;
+    background: rgb(255, 255, 255,0);
+}
+.containerr form input:focus{
+    background: rgb(255, 255, 255,0);
+}
+.containerr form i{
+    padding-left: 10px;
+}
+
+
+
+/* Student search item */
+
+.student{
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+}
+.student-details .student-input-name{
+    font-size: 24px;
+    color:  #2ab7ca;
+}
+.student-details .student-input-id{
+    font-size: 24px;
+    position: absolute;
+    bottom: 40%;
+    color: #2ab7ca;
+}
+.results-h2{
+    border-bottom: 2px solid #2ab7ca;
+}
+.student img{
+    width: 150x;
+    height: 150px;
+    object-fit: cover;
+    border-radius: 5px;
+    padding: 2px;
+    border: 2px solid #2ab7ca ;
+}
+.student .student-details h2{
+    font-size: 18px;
+    color: #1d1d1d;
+}
+.student .student-details h3{
+    font-size: 12.5px;
+
+}
+.student form{
+    margin-left: 0;
+    outline: none;
+    border: none;
+
+}
+
+.student .student-details{
+    padding-left: 15px;
+    margin-top: 20px;
+}
+.form-selectt{
+    background: none;
+    position: absolute;
+    top: -30px;
+    border-style: none;
+    background: rgb(255, 255, 255);
+    color: #2ab7ca ;
+    width: 20%;
+    text-align: center;
+    font-weight: 600;
+    border-radius: 4px;
+}
+.form-selectt option{
+    font-weight: 600;
+    border: 2px solid #1d1d1d;
+}
+.form-selectt:focus{
+    font-weight: 600;;
+}
+.form-selectt:focus{
+    border: none;
+    border-style: none;
+    outline: none;
+
+}
+.search-bar input[type="text"] {
+    width: 1024px;
+    padding: 12px 20px;
+    margin: 8px 0;
+    box-sizing: border-box;
+    border: 2px solid #ccc;
+    border-radius: 4px;
+    background-color: #f1f2fa;
+    position: relative;
+    top: -100%;
+    left: 30%;
+    
+  }
+
+.university .form-university{
+    position: absolute;
+    top: -60px;
+    width: 20%;
+    outline: none;
+    border: 1px solid rgb(82, 74, 235) ;
+    border-radius: 4px;
+    text-align: center;
+    color: #2ab7ca ;
+    font-weight: 600;
+    border: none;
+}
+.university .form-university option{
+    font-weight: 600;
+}
+.containerr .form-course{
+    background-color: aqua;
+    outline: none;
+    border: none;
+
+}
+

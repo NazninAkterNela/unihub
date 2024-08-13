@@ -1,0 +1,202 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+
+*{
+    font-family: "Montserrat",sans-serif; 
+}
+body{
+    background-image: url("../assets/background-img/rm222batch2-mind-03.jpg");
+   
+    background-color: #f1f2fa;   
+}
+.navbarr{
+    border-bottom: 5px solid #0099a9;
+    margin-bottom: 20px;
+}
+.container-profile{
+    display: flex;
+    justify-content: space-between;
+}
+.container-profile .about{
+    position: relative;
+    right: 440px;
+    width: 400px;
+}
+.edit-button{
+    background-color: #0cb1c7;
+  border: none;
+  color: white;
+  text-decoration: none;
+  margin: 4px 2px;
+  cursor: pointer;
+  width: 50px;
+}
+.profile, 
+.details,
+.container-running{
+    margin: 10px;
+    margin-left: 400px;
+    background: #fff;
+    width: 600px;
+    padding: 20px ;
+    border-radius: 10px;
+    margin-bottom: 0;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    
+}
+footer{
+    margin-top: 100px;
+}
+.container-running .div1,
+.details .div1,
+.about .div1{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.container-running .div1 h1{
+    font-size: large;
+}
+input{
+    width: 100%;
+    font-size: 14px;
+    border: none;
+}
+textarea:focus,
+input:focus,
+select:focus{
+    outline: none;
+}
+.container-running .div1 button{
+    text-align: center;
+}
+.profile .container-photo{
+    width: 40%;
+    margin-left: 10px;
+    padding: 5px;
+    display: flex;
+    justify-content: space-between;
+    gap: 280px;
+}
+.profile .container-details{
+    display: block;
+    margin: 0px 0 30px 10px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.about{
+    display: inline-block;
+    position: relative;
+    right: 400px;
+    width: 400px;
+    height: fit-content;
+}
+
+.profile .container-details .dropdown button{
+    width: 140px;
+    font-size: 14px;
+    font-weight: 600;
+}
+
+
+
+h1{
+    font-size: 24px !important;
+}
+h2{
+    width: 100%;
+    font-size: 18px !important;
+}
+
+.container-photo .img-dp{
+    max-height:100%; 
+    max-width:100%;
+    border-radius: 50%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 100%;
+    
+}
+section .edit{
+    margin-top: 20px;
+}
+section .edit div{
+    display: flex;
+    justify-content: space-between;
+}
+.cv{
+    position: absolute;
+    top: 40%;
+    left: 34.3%;
+    width: 400px;
+    height: fit-content;
+    margin-bottom: 20px;
+}
+.cv-div button{
+    position: relative;
+    right: -290px;
+    top: -34px;
+}
+/* follow section */
+.follow-container{
+    position: absolute;
+    top: 53%;
+    left: 34.3%;
+    width: 400px;
+    height: fit-content;
+}
+h5{
+    font-size: 12px;
+    font-weight: 600;
+}
+.follow-container .div2{
+
+    padding: 4px 10px 0px 10px;
+    border: 2px solid rgb(255, 255, 255);
+    gap: 1px;
+    border-radius: 5px;
+    margin-bottom: 15px;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+
+
+}
+.follow-container .div2 h2{
+    font-size: 17.5px;
+    font-weight: 800;
+}
+
+
+
+@media only screen and (max-width: 1368px) {
+    .profile, 
+    .details,
+    .container-running{
+        margin: 10px;
+        margin-left: 200px;
+        background: #fff;
+        width: 560px;
+        
+    }
+    .container-profile .about{
+        position: relative;
+
+        right: 150px;
+        
+    }
+    .follow-container{
+        position: absolute;
+        top: 43%;
+        left: 44.3%;
+        width: 400px;
+        height: fit-content;
+    }
+  }
+
+  .upload-button{
+   position: relative;
+   bottom: 30px;
+   left: 10px;
+    width: 80px;
+    height: 27px;
+  }

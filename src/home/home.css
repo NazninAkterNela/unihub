@@ -1,0 +1,196 @@
+*{
+    padding: 0;
+    margin: 0;
+
+}
+body{
+    background: #f1f2fa;
+}
+textarea{
+    border: none;
+    outline: none;
+    resize: none;
+}
+.vertical-line {
+    width: 2px;
+    height: 100%;
+    background-color: #fed766 ;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 55%;
+    box-shadow: 2px 0px 3px 0px #fed766 ;
+}
+.horizontal-line {
+    width: 45%;
+    height: 2px;
+    background-color: #fed766;
+    position: absolute;
+    right: 0;
+    top:13%;
+    box-shadow: 0px 2px 3px 0px #fed766;
+}
+.your-post-h1{
+    position: absolute;
+    color: #fed766;
+    top:9%;
+    left: 57%;
+    font-size: 28px;
+}
+img{
+    width: 45px;
+    border-radius: 50%;
+    margin-right: 10px ;
+
+}
+.write-post-container{
+    margin-top: 50px;
+    width: 40%;
+    background: #fff;
+    border-radius: 6px;
+    padding: 20px;
+    color: #626262;
+    position: relative;
+    left: 15%;
+    top: -100px;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+.user-profile{
+    display: flex;
+    align-items: center;
+}
+.user-profile img{
+    width: 45px;
+    border-radius: 50%;
+    margin-right: 10px ;
+}
+.user-profile p{
+    margin-bottom: 2px;
+    font-weight: 500;
+    color: #626262;
+}
+.user-profile small{
+    font-size: 12px;
+}
+.post-input-container{
+    padding-left:55px;
+    padding-top: 20px;
+
+}
+.post-input-container textarea{
+    width: 100%;
+    border: 0;
+    outline: 0;
+    border-bottom: 1px solid #ccc;
+    background: transparent;
+    resize: none;
+}
+.post-button{
+    padding-top: 20px;
+    position: relative;
+    display: flex;
+    justify-content: end;
+}
+.personal-post-container {
+    width: 600px;
+    position: absolute;
+    right: 10%;
+    top: 17%;
+}
+.personal-post-container h1{
+    font-size: 20px;
+    color: #626262;
+    position: relative;
+    top: 0%;
+}
+.personal-post-container .written-post-container{
+    
+    position: relative;
+    background: #fff;
+    width: 100%;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    padding: 20px;
+    border-radius: 6px;
+    margin-bottom: 10px;
+}
+.personal-post-container .user-profile2{
+    position: relative;
+    right: -40px;
+    display: flex;
+    align-items: center;
+}
+
+.personal-post-container .user-profile2 img{
+    width: 30px;
+    border-radius: 50%;
+    margin-right: 10px ;
+    position: relative;
+    top: -20px;
+}
+.personal-post-container .user-profile2 .comment-new{
+    position: relative;
+    top: 10px;
+    padding-bottom: 20px;
+    display: flex;
+    justify-content: space-between;
+    
+}
+.personal-post-container .user-profile2 .comment textarea{
+    width: 100%;
+    height: 30px;
+    border: 0;
+    outline: 0;
+    border-bottom: 1px solid #ccc;
+    background: transparent;
+    resize: none;
+    position: relative;
+    top: -10px;
+    
+}
+.personal-post-container .user-profile2 .comment-new .btn-comment{
+    height: fit-content;
+    text-align: center;
+    size: 0px;
+}
+.personal-post-container .user-profile2 .input-name{
+    margin-bottom: 2px;
+    font-weight: 500;
+    color: #626262;
+    position: relative;
+    top: -10px;
+}
+.user-profile3{
+    position: relative;
+    right: -40px;
+    display: flex;
+    align-items: center;
+    
+}
+.user-profile3 .comment{
+    position: relative;
+    top: 35px;
+    padding-bottom: 20px;
+    display: flex;
+
+}
+input{
+    border: none;
+    outline: none;
+}
+.user-profile3 .input-name{
+    margin-bottom: 2px;
+    font-weight: 500;
+    color: #626262;
+    position: relative;
+    top: -60px;
+}
+.user-profile3 .comment textarea{
+    position: relative;
+    top: -25px;
+    right: 195px;
+}
+
+.followers-post .user-profile img{
+    position: relative;
+    top: -20px;
+}
