@@ -9,6 +9,7 @@ uniHub is a web-based platform designed to facilitate seamless collaboration bet
 ### For Teachers:
 
 - **Course Management:**
+
   - Assign students to courses.
   - Add and manage lecture videos or other educational materials for each course.
   - Specify prerequisite courses for better academic planning.
@@ -19,17 +20,20 @@ uniHub is a web-based platform designed to facilitate seamless collaboration bet
 ### For Students:
 
 - **Job Marketplace:**
+
   - Apply for job opportunities posted by teachers or other students.
   - Explore various job listings related to academic support, research, and more.
 
 - **Course Information:**
+
   - View a comprehensive list of courses they are enrolled in.
   - Access prerequisite information for better course planning.
 
 - **Learning Resources:**
+
   - Watch lecture videos and access other course materials.
 
 - **Marketplace:**
   - Buy and sell products within the uniHub community.
 
-
+New Line added
